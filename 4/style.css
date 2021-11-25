@@ -21,6 +21,7 @@ nav{
     border: ridge rgb(92, 255, 38);
 }
 .list, .form, .table{
+    border-radius: 8px;
     background-color: #bbbb;
 }
 table tr:nth-child(2n) td{
