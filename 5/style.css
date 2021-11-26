@@ -20,7 +20,7 @@ nav{
     max-width:auto;
     border: ridge rgb(92, 255, 38);
 }
-.list, .form, .table{
+.list, .form, .table, .goodscal{
     border-radius: 8px;
     background-color: #bbbb;
 }
