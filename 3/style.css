@@ -16,6 +16,7 @@ header h1{
     background-color: #dedede;
 }
 nav{
+    text-align: center;
     background-color: #bebebe;
     max-width:960px;
     margin:5px auto;
@@ -54,7 +55,8 @@ table ,th,td{
     padding: 5px;
     text-align: center;
 }
-@media screen and (orientation: portrait) and (min-width: 720px){
+
+@media screen and (max-device-width: 640px){
     nav a{
         display: block;
     }
