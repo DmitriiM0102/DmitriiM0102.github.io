@@ -7,10 +7,10 @@ function isNumber(a){ // проверка для количества (т.е к�
     else return false
 }
 function summa() {
-  let price = document.getElementById("price").value
-  let colvo = document.getElementById("amount").value
-  let sum= +price * +colvo
-  let a1= +price, a2= parseFloat(colvo)
+  const price = document.getElementById("price").value
+  const colvo = document.getElementById("amount").value
+  const sum= +price * +colvo
+  const a1= +price, a2= parseFloat(colvo)
   if(!isNumber(a1)){
     alert("Укажите цену правильно")
     return false
