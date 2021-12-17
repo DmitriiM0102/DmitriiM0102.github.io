@@ -1,8 +1,3 @@
-﻿document.addEventListener('DOMContentLoaded', function(event) {
-  console.log("DOM fully loaded and parsed")
-   const b=document.getElementId('but');
-   b.addEventListener('onclick',summa());
-})
 function isNumber(a){ // проверка для количества (т.е кг)
   if (typeof a === 'number' && a>0)
       return !isNaN(a)
@@ -29,3 +24,8 @@ function summa() {
     else document.getElementById("result").innerHTML = "Сумма: "+sum+" рублей"
   return false
 }
+﻿document.addEventListener('DOMContentLoaded', function(event) {
+  console.log("DOM fully loaded and parsed")
+   const b=document.getElementId('but');
+   b.addEventListener('onclick',summa());
+})
