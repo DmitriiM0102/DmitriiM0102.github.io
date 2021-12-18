@@ -1,7 +1,7 @@
 ﻿﻿document.addEventListener('DOMContentLoaded', function(event) {
   console.log("DOM fully loaded and parsed")
 })
-function isNumber(a){ // проверка для количества (т.е кг)
+function isNumber(a){ 
   if (typeof a === 'number' && a > 0)
       return !isNaN(a)
     else return false
