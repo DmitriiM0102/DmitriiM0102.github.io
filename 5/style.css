@@ -15,29 +15,7 @@ header div{
 header h1{
     background-color: #dedede;
 }
-nav{
-    background-color: #bebebe;
-    max-width:auto;
-    border: ridge rgb(92, 255, 38);
-}
-.list, .form, .table, .goodscal{
+.goodscal{
     border-radius: 8px;
     background-color: #bbbb;
-}
-table tr:nth-child(2n) td{
-    background-color: rgba(0, 255, 0, 0.2);
-}
-table tr:nth-child(2n+1) td{
-    background-color: rgba(255, 255, 0, 0.4);
-}
-footer{
-    background-color:#CCC;
-    margin: 5px;
-    padding: 5px;
-}
-table ,th,td{
-    border: 2px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: center;
 }
