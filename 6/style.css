@@ -1,0 +1,21 @@
+header img{
+    float:left;
+    margin-right:20px;
+}
+header{
+    background-color:#CCC;
+    padding-top: 1px;
+    padding-bottom: 28px;
+    vertical-align: middle;
+}
+header div{
+    max-width:960px;
+    margin:0 auto;
+}
+header h1{
+    background-color: #dedede;
+}
+.goodscal{
+    border-radius: 8px;
+    background-color: #bbbb;
+}
